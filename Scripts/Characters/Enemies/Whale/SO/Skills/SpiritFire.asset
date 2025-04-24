@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80c5ec4198cbef4f98854665b11bf67, type: 3}
+  m_Name: SpiritFire
+  m_EditorClassIdentifier: 
+  ProjectilePrefab: {fileID: 6351000616146103586, guid: 32ab98838644d5a4392a8e3aaa19aca3,
+    type: 3}
+  SpiritData:
+    Health: 30
+    RaturnAccelerate: 30
+    ReturnAngularSpeed: 120
+    ReturnDamage:
+      Amount: 30
+      Element: 2
+  HomingData:
+    ProjectileData:
+      Damage:
+        Amount: 30
+        Element: 3
+      Speed: 30
+      Gravity: 0
+      SpeedModifier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Lifetime: 30
+      Size: 4
+    MaxAngularSpeed: 60
+    AngularAcceleration: 20
+    MaxDegreeRotate: 720
+  FireDirection: 0
+  Amount: 3
+  Interval: 0.5
+  Downtime: 15
+  SpreadAngle: 180

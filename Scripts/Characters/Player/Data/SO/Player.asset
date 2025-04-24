@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5b511b23d604f4a92330cbc35e6f79, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  StatsData:
+    MaxHealth: 50
+    MaxLife: 3
+    TimeToRecover: 6
+    HealthRecoverPerSec: 5
+    DamageBuildAmountToKnockback: 30
+    IFrameDuration: 0.75
+  MovementData:
+    BaseSpeed: 15
+    GroundDetectRange: 2
+    SlopeSpeedAngles:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: -0.016666668
+        outSlope: -0.016666668
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 15
+        value: 0.75
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 55.1
+        value: 0.4
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 65.1
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 1
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 90
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    TargetRotationReachTime: {x: 0.4, y: 0.4, z: 0}
+    TargetSpeedReachTime: 0.4
+    AerialData:
+      FlyData:
+        SpeedModifier: 1
+      RushData:
+        SpeedModifier: 2
+        EnterHoverSpeedRatio: 0.1
+        DashToRushTime: 2
+      VelocitySpeed: 15
+    GroundedData:
+      WalkData:
+        SpeedModifier: 1
+      RunData:
+        SpeedModifier: 1.5
+      SprintData:
+        SpeedModifier: 2.5
+    WallData:
+      SpeedModifier: 2.5
+      JumpForce: 50
+  UncontrollableData:
+    GroundDetectRange: 2
+    JumpData:
+      JumpForce: {x: 0, y: 50, z: 0}
+      JumpTime: 0.2
+    KnockbackDuration: 0.8
+    KnockbackForce: 40
+    StaggeredDuration: 0.3
+    PullupDamage: 30
+    PullupForce: 12
+    PullupDuration: 1
+  ColliderUtility:
+    DefaultColliderData:
+      Height: 1.3
+      CenterY: -0.12
+      Radius: 0.15
+    SlopeData:
+      SlopeHeightPercentage: 0
+      FloatRayDistance: 0.5
+      StepReachForce: 25
+  LayerData:
+    GroundLayer:
+      serializedVersion: 2
+      m_Bits: 1

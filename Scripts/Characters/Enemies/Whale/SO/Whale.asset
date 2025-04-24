@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acb58a783142c1146ab60a7fdb49837c, type: 3}
+  m_Name: Whale
+  m_EditorClassIdentifier: 
+  Stats:
+    MaxHealth: 2000
+    PhaseChangeRatios:
+    - 0.5
+    - 0.25
+  MovementData:
+    MinSpeed: 20
+    AngularSpeed: 10
+    MaxTiltAngle: 0
+  ApproachPlayerData:
+    ApproachSpeed: 50
+    MaxApproachSpeed: 80
+    Acceleration: 7
+    AngularSpeed: 3
+  DecelerationData:
+    Deceleration: 8
+  RevolveData:
+    Acceleration: 15
+    MaxSpeed: 150
+    RevolveDistance: 500
+    AttackDuration: 8
+  RetreatData:
+    MaxTilt: 30
+    TileAcceleration: 10
+    Speed: 20
+    Duration: 15

@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78cb9f9b29f3e140b01227dd669ebe7, type: 3}
+  m_Name: Seraph_Gabriel
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 8428676518539391059, guid: ce6943f1e7d5d1f458126f09a13af31a, type: 3}
+  Name: Gabriel
+  Description: unfinished ver.
+  Icon: {fileID: 21300000, guid: 8d7c4dd17842d374695e1e9b8a3f4deb, type: 3}

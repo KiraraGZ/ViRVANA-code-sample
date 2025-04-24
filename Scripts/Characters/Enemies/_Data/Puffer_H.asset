@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e78cb9f9b29f3e140b01227dd669ebe7, type: 3}
+  m_Name: Puffer_H
+  m_EditorClassIdentifier: Assembly-CSharp:Magia.GameLogic:EnemySO
+  Prefab: {fileID: 308181798076134569, guid: 46cf61e64f2281843956af3ef226fccf, type: 3}
+  Name: Hyper Puffer
+  Description: 
+  Icon: {fileID: 21300000, guid: 3ef375ce170970e43a86927896e0dc7c, type: 3}

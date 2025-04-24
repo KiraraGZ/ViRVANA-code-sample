@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc5812a9141069d4f8782fe8b58f8e63, type: 3}
+  m_Name: Buddy
+  m_EditorClassIdentifier: 
+  MovementData:
+    BaseSpeed: 20
+    AngularRotationSpeed: 270
+    StopDistance: 1
+    RaycastSampleCount: 18
+    SlowDownRadius: 10
+    ObstacleAvoidanceRange: 3
+    RepositionSpeedModifier: 2
+    HoverHeight: 1
+    HoverHeightOffset: 0.1
+    FollowPlayerLerp: 0.95
+    VerticalLerp: 0.75
+  CombatData:
+    ProjectilePrefab: {fileID: 7065670355053299071, guid: 087158d3c6881ee46af02672776f05a1,
+      type: 3}
+    ProjectileData:
+      Damage:
+        Amount: 5
+        Element: 2
+      Speed: 50
+      Gravity: 0
+      SpeedModifier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Lifetime: 10
+      Size: 0.6
+    AttackRange: 150
+    AttackInterval: 2
+    BlockedDuration: 2.5
+    FindNewTargetInterval: 1

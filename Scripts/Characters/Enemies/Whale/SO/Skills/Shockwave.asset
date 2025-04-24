@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5754638aa0843de47918f7ace66184ff, type: 3}
+  m_Name: Shockwave
+  m_EditorClassIdentifier: 
+  Damage:
+    Amount: 60
+    Element: 4
+    Type: 1
+  Delay: 7
+  MaxRange: 400
+  Downtime: 10
+  ImpactBuildingPrefab: {fileID: 912844939792816121, guid: 61cef11e15678c14d8e4da9fb314d3bb,
+    type: 3}
+  ImpactPlayerPrefab: {fileID: 912844939792816121, guid: 9975f903ca52a9646809c26ff46e2779,
+    type: 3}
+  EarthShakeSound: {fileID: 8300000, guid: 2138b0e30b9f59042a63ee09c9440cdd, type: 3}

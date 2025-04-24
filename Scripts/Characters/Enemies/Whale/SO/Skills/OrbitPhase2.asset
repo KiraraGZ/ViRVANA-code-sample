@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb52fdca1a1d861499bbc4f996af666b, type: 3}
+  m_Name: OrbitPhase2
+  m_EditorClassIdentifier: 
+  Duration: 3
+  Downtime: 3
+  CenterProjectilePrefab: {fileID: 5301093564226986860, guid: 1d95f8285c8d8e248994eeacc659884e,
+    type: 3}
+  HomingData:
+    ProjectileData:
+      Damage:
+        Amount: 50
+        Element: 3
+      Speed: 60
+      Gravity: 0
+      SpeedModifier:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 6.140625
+          outSlope: 6.140625
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0.22900763
+        - serializedVersion: 3
+          time: 0.2
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 65
+          weightedMode: 0
+          inWeight: 0.8854962
+          outWeight: 0.2169817
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      Lifetime: 30
+      Size: 2.5
+    MaxAngularSpeed: 120
+    AngularAcceleration: 30
+    MaxDegreeRotate: 330
+  SurroundProjectilePrefab: {fileID: 5288402916087142367, guid: 98ac6aafc0b41bf49917b801d430449e,
+    type: 3}
+  OrbitData:
+    HomingProjectileData:
+      ProjectileData:
+        Damage:
+          Amount: 50
+          Element: 3
+        Speed: 60
+        Gravity: 0
+        SpeedModifier:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 6.140625
+            outSlope: 6.140625
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0.22900763
+          - serializedVersion: 3
+            time: 0.2
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 65
+            weightedMode: 0
+            inWeight: 0.8854962
+            outWeight: 0.2169817
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Lifetime: 30
+        Size: 2
+      MaxAngularSpeed: 120
+      AngularAcceleration: 30
+      MaxDegreeRotate: 330
+    RadialAcceleration: 10
+    OrbitDegreePerSeconds: 60
+    DroppedRadius: 0
+  SurroundProjectileAmount: 6
+  InitialSurroundProjectileRadius: 1
+  InitialSurroundProjectileSpeed: 30
